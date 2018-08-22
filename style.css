@@ -1,28 +1,37 @@
 .grid-container {
   display: grid;
-  grid-template-columns: 60px 60px 60px 60px;
+  grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px;
   padding: 10px;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
-  height: 40px;
+  height: 20px;
   text-align: center;
 }
 
 #red {
   background-color: red;
 }
-
 #blue {
   background-color: blue;
 }
-
 #green {
   background-color: green;
 }
-
 #black {
   background-color: black;
+}
+#orange {
+  background-color: orange;
+}
+#purple {
+  background-color: purple;
+}
+#yellow {
+  background-color: yellow;
+}
+#white {
+  background-color: white;
 }
